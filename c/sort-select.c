@@ -5,7 +5,7 @@ void selection_sort(int array[], int N)
     for (int i = 0; i < N; i++) {
         int cur = array[i];
         int ind_el = i;
-        
+
         for (int j = i + 1; j < N; j++) {
             if (cur > array[j]) {
                 cur = array[j];
